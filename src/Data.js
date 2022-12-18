@@ -9,7 +9,7 @@ const data = [
 	environments also use it. JavaScript can be
 	used for Client-side developments as well as
 	Server-side developments`,
-    author: "Nishant Singh "
+    author: "Nishant Singh ",
   },
   {
     title: "Data Structure ",
@@ -22,7 +22,7 @@ const data = [
 	stack for the longest period of time. So, it
 	can be simply seen to follow LIFO(Last In
 	First Out)/FILO(First In Last Out) order.`,
-    author: "Suresh Kr"
+    author: "Suresh Kr",
   },
   {
     title: "Algorithm",
@@ -33,7 +33,7 @@ const data = [
 	that step-by-step define how a work is to be
 	executed upon in order to get the expected
 	results. `,
-    author: "Monu Kr"
+    author: "Monu Kr",
   },
   {
     title: "Computer Network",
@@ -46,21 +46,8 @@ const data = [
 	devices; these are known as Network devices
 	and include things such as routers, switches,
 	hubs, and bridges. `,
-    author: "Sonu Kr"
+    author: "Sonu Kr",
   },
-  {
-    title: "Computer Network",
-    body: `An interconnection of multiple devices,
-	also known as hosts, that are connected using
-	multiple paths for the purpose of sending/
-	receiving data media. Computer networks can
-	also include multiple devices/mediums which
-	help in the communication between two different
-	devices; these are known as Network devices
-	and include things such as routers, switches,
-	hubs, and bridges. `,
-    author: "Sonu Kr"
-  }
 ];
 
 export default data;
