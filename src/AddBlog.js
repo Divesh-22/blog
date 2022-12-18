@@ -19,7 +19,7 @@ function AddBlog(props) {
   };
 
   return (
-    <div>
+    <div className="container">
       <div className="addpost-container">
         <label>Title: </label>
         <input
@@ -45,12 +45,7 @@ function AddBlog(props) {
             setAuthor(e.target.value);
           }}
         />
-        <button
-          style={{ background: "teal", color: "white" }}
-          onClick={addItemToList}
-        >
-          Add
-        </button>
+        <button onClick={addItemToList}>Add</button>
       </div>
       <Blog newData={data.slice().reverse()} />
     </div>

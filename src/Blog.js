@@ -4,19 +4,19 @@ import "./styles.css";
 function Blog(props) {
   return (
     <div>
-      <ul className="posts-container">
+      <div className="posts-container">
         {props.newData.map((post, index) => {
           return (
-            <li key={index} className="post-container">
+            <div key={index} className="post-container">
               <h2 className="heading">{post.title}</h2>
               <p>{post.body}</p>
               <div className="info">
                 <h5>Posted by: {post.author}</h5>
               </div>
-            </li>
+            </div>
           );
         })}
-      </ul>
+      </div>
     </div>
   );
 }
